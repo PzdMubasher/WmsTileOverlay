@@ -15,7 +15,7 @@ public class TileProviderFactory {
                 "?service=WMS" +
                 "&version=1.1.1" +
                 "&request=GetMap" +
-                "&layers=cite:" + tileName +
+                "&layers=" + tileName +
                 "&bbox=%f,%f,%f,%f" +
                 "&width=256" +
                 "&height=256" +
